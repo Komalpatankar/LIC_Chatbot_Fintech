@@ -52,6 +52,13 @@ It allows users to ask questions like _“What is the grace period for Jeevan Am
 | Doc Parsing      | PyMuPDF, pdfminer.six             |
 
 ---
+## 🧭 System Architecture
+
+The LIC Chatbot uses a Retrieval-Augmented Generation (RAG) pipeline for accurate answers from LIC policy PDFs.
+
+![System Architecture](assets/architecture.png)
+
+---
 
 ## 📁 Directory Structure
 
@@ -72,6 +79,7 @@ LIC-Chatbot/
 
 ## ⚙️ Setup Instructions
 
+
 1. **Clone the Repository**
 
     ```git clone https://github.com/your-username/lic-rag-chatbot.git ```
@@ -83,10 +91,10 @@ LIC-Chatbot/
 
     ```python -m venv venv ```
 
-For Linux/macOS:
+   For Linux/macOS:
     ```source venv/bin/activate```
 
-For Windows:
+   For Windows:
     ```venv\Scripts\activate```
 
 
@@ -95,13 +103,13 @@ For Windows:
     ```pip install -r requirements.txt```
 
 
-If requirements.txt is missing, install manually:
+   If requirements.txt is missing, install manually:
     ```pip install streamlit langchain langchain-google-genai google-generativeai faiss-cpu python-dotenv PyMuPDF pandas```
 
 
 4. **Configure Your Google Generative AI API Key**
 
-Create a .env file in the root directory and add:
+   Create a .env file in the root directory and add:
     ```GOOGLE_API_KEY=your_google_gen_ai_api_key_here```
 
 
