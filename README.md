@@ -122,7 +122,8 @@ LIC-Chatbot/
 
 
 ---
-💬 Sample Queries
+##💬 Sample Queries
+
 “What are the maturity benefits of Jeevan Labh?”
 
 “Main 28 saal ka hoon, kaunsi policy suitable hai?”
