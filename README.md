@@ -37,7 +37,17 @@ It allows users to ask questions like _“What is the grace period for Jeevan Am
    The result is shown to the user in a Streamlit-powered chat UI with LIC branding and sources cited.
 
 ---
+## 🧭 System Architecture
 
+![System Architecture](chatbot-system-architecture.png)
+
+---
+
+## 🔁 Chatbot Process Flow
+
+![Chatbot Architecture](architecture-of-chatbot.png)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -50,13 +60,6 @@ It allows users to ask questions like _“What is the grace period for Jeevan Am
 | LLM              | Gemini 1.5 Flash                  |
 | Retrieval Logic  | LangChain (RAG + Prompt Templates)|
 | Doc Parsing      | PyMuPDF, pdfminer.six             |
-
----
-## 🧭 System Architecture
-
-The LIC Chatbot uses a Retrieval-Augmented Generation (RAG) pipeline for accurate answers from LIC policy PDFs.
-
-![System Architecture](assets/architecture.png)
 
 ---
 
@@ -117,4 +120,12 @@ LIC-Chatbot/
 
     ```streamlit run app.py```
 
+
+---
+💬 Sample Queries
+“What are the maturity benefits of Jeevan Labh?”
+
+“Main 28 saal ka hoon, kaunsi policy suitable hai?”
+
+“What is the grace period in LIC term plans?”
 
